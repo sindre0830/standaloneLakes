@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Lake -->
+	<TerrainDef ParentName="WaterDeepBase">
+		<defName>lake</defName>
+		<label>lake</label>
+		<description>A simple lake.</description>
+		<designationCategory>Floors</designationCategory>
+		<renderPrecedence>395</renderPrecedence>
+		<passability>Standable</passability>
+		<texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		<driesTo>Soil</driesTo>
+		<pathCost>30</pathCost>
+		<affordances>
+			<li>ShallowWater</li>
+			<li>Bridgeable</li>
+		</affordances>
+		<statBases>
+			<Beauty>2</Beauty>
+			<WorkToBuild>256</WorkToBuild>
+		</statBases>
+	</TerrainDef>
+</Defs>

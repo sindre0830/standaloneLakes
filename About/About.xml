@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+	<name>Lakes</name>
+	<author>RadZerp</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>RadZerp.standaloneLakes</packageId>
+	<description>
+A simple mod that adds buildable lakes to the game.
+
+This is a standalone mod from my series Natural. If you want to check out my other mod, Natural Paths, id suggest you subscribe to Natural Lakes as an addon.
+
+Stats
+  - Cost: Nothing
+  - Work to build: 256
+  - Walk speed: 30%
+  - Terrain requirement: Diggable
+  - Beauty: 2
+
+README: The only way to remove the lake after it has been built is by placing a moisture pump, just like the shallow water in vanilla.
+	</description>
+</ModMetaData>
